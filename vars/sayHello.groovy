@@ -1,3 +1,3 @@
 def call(def config) {
-  echo config.toString()
+  echo config
 }
