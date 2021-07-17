@@ -1,3 +1,3 @@
 def call(def config) {
-  echo config.dump()
+  config.properties.each { println "$it.key -> $it.value" }
 }
