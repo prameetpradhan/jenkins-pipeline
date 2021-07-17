@@ -1,11 +1,6 @@
-pipeline {
-    agent any
+ @Library('jenkins-pipeline')
 
-    stages {
-        stage('Hello') {
-            steps {
-                echo 'Hello World'
-            }
-        }
-    }
-}
+ stage('Demo') {
+     echo 'Hello world'
+     sayHello 'Dave'
+ }
