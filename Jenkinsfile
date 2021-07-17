@@ -1,3 +1,3 @@
  @Library('jenkins-pipeline')_
 
-sayHello 'Dave'
+sayHello this
